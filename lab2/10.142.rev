@@ -1,0 +1,17 @@
+$ttl 3600
+142.10.in-addr.arpa.	IN	SOA	ns.group142.lab. root.group142.lab. (
+			1676388620
+			3600
+			600
+			1209600
+			3600 )
+142.10.in-addr.arpa.	IN	NS	ns.group142.lab.
+1.1.142.10.in-addr.arpa.	IN	PTR	gw-server.group142.lab.
+2.1.142.10.in-addr.arpa.	IN	PTR	ns.group142.lab.
+142.1.142.10.in-addr.arpa.	IN	PTR	www.group142.lab.
+1.2.142.10.in-addr.arpa.	IN	PTR	r1.group142.lab.
+2.2.142.10.in-addr.arpa.	IN	PTR	r2.group142.lab.
+1.3.142.10.in-addr.arpa.	IN	PTR	gw-client.group142.lab.
+11.3.142.10.in-addr.arpa.	IN	PTR	client1.group142.lab.
+12.3.142.10.in-addr.arpa.	IN	PTR	client2.group142.lab.
+13.3.142.10.in-addr.arpa.	IN	PTR	client3.group142.lab.
