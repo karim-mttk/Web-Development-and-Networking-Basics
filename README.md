@@ -1,2 +1,2 @@
-# Web_Development_and_Networking_Basics
+# Web-Development-and-Networking-Basics
 This GitHub repository features a collection of projects and laboratory work undertaken for a course on networking and communications, coupled with elements of basic web development. The covered topics include HTML5, CSS3, JavaScript, HTTP, DNS, DHCP, TCP protocols, and socket programming implemented using Java. The foundational knowledge from J.F. Kurose & K.W. Ross's seminal book, "Computer Networking: A Top-Down Approach, Global Edition," has served as both a reference point and a source of inspiration for these projects.
