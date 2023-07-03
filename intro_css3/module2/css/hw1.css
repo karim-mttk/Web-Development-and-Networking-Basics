@@ -1,0 +1,381 @@
+@media (min-width: 275px) and (max-width: 700px){
+	body {
+		padding: 1%; 
+		margin: 1%;
+	}
+
+	header {
+		background: #c0c0c0; 
+		background-image: url("../images/flywheel.jpg");
+		background-repeat: no-repeat;
+		background-size: 100%; 
+		padding: 1%;
+	}
+
+	nav {
+		text-align: center;
+	}
+
+	nav a {
+		background-color: rgba(117, 247, 78, 0.6);
+		color: #000000; 
+		display: inline-block;
+		padding: 10px;
+		margin: 1%; 
+		text-decoration: none; 
+		border-radius: 5px; 
+	}
+
+	.active {
+		background: #FFFFFF;
+	}
+
+	h1 {
+		color: #9cdcfa;
+		text-align: center;
+		text-transform: uppercase;
+		font-family: "Trebuchet MS", Helvetica, sans-serif; 
+		font-size: 25px;
+		position: relative;
+		top: -10px;
+	}
+
+	h2 {
+		color: #000000; 
+		text-transform: uppercase; 
+		font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+		font-size: 15px;
+	}
+	 
+	.left {
+		background: #79a9f0;
+		width: 40%;
+		float: left;
+		padding: 1% 0; 
+		
+	}
+
+	.left img {
+		border: solid 2px #000000;
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+		margin-top: 15%;
+		margin-bottom: 30%;
+	    
+	}
+
+	.right {
+		width: 58%;
+		display: inline-block;
+		padding-left: 2%;
+	}
+
+	a {
+		font-family: Arial, Helvetica, sans-serif;
+		font-weight: bold;
+		font-size: 12px;
+	}
+
+	p {
+		font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;	
+		font-size: 12px;
+	}
+
+    table {
+      border-collapse: collapse;
+      width: 800px;
+      font-family: "Courier New", Courier, monospace;
+      font-weight: bold;
+      font-size: 80%;
+  }
+
+  th {
+      background: #4682B4;
+      color: #FFFFFF;
+      border: 2px solid #FFFFFF;
+      background-image: url('https://wallpaper.dog/large/993956.jpg');
+      background-repeat: no-repeat;
+  }
+
+  td {
+      background: #87CEEB;
+      color: #000080;
+      border: 2px solid #FFFFFF;
+      text-align: center;
+  }
+
+  table, td, th {
+      margin-left: 3%;
+      padding: 1%;
+  }
+
+  tr th:first-child, tr td:first-child {
+      text-align: left;
+  }
+
+  tr td {
+      opacity: 0.8;
+  }
+
+  tr td:hover, tr th:hover {
+      opacity: 1.5;
+      font-size: 150%;
+  }
+
+}
+
+@media (min-width: 701px) and (max-width: 1199px) {
+	body {
+		padding: 1%; 
+		margin: 1%;
+	}
+
+	header {
+		background: #C0C0C0;
+		background-image: url("../images/flywheel.jpg");
+		background-repeat: no-repeat;
+		background-size: 100%; 
+		padding: 1%;
+	}
+
+	nav {
+		text-align: center;
+	}
+
+	nav a {
+		background-color: rgba(117, 247, 78, 0.6);
+		color: #000000;
+		display: inline-block;
+		padding: 15px;
+		margin: 5%; 
+		text-decoration: none; 
+		border-radius: 5px; 
+
+	}
+	.active {
+		background: #FFFFFF;
+	}
+
+	h1 {
+		color: #9cdcfa;
+		text-align: center;
+		text-transform: uppercase;
+		font-family: "Trebuchet MS", Helvetica, sans-serif; 
+		font-size: 40px;
+		position: relative;
+		top: -20px;
+	}
+
+	h2 {
+		color: #000000;
+		text-transform: uppercase; 
+		font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+		font-size: 25px;
+	}
+
+	.left {
+		background: #79a9f0;
+		width: 30%;
+		float: left;
+		padding: 5% 0; 
+	}
+
+	.left img {
+		border: solid 2px #000000; 
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+		margin-top: 1%;
+		margin-bottom: 1%; 
+	}
+
+	.right {
+		width: 68%;
+		display: inline-block;
+		padding-left: 2%;
+	}
+
+	a {
+		font-family: Arial, Helvetica, sans-serif;
+		font-weight: bold;
+		font-size: 12px;
+	}
+
+	p {
+		font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+		font-size: 13px;
+
+	}
+
+    table {
+      border-collapse: collapse;
+      width: 800px;
+      font-family: "Courier New", Courier, monospace;
+      font-weight: bold;
+      font-size: 80%;
+  }
+
+  th {
+      background: #4682B4;
+      color: #FFFFFF;
+      border: 2px solid #FFFFFF;
+      background-image: url('https://wallpaper.dog/large/993956.jpg');
+      background-repeat: no-repeat;
+  }
+
+  td {
+      background: #87CEEB;
+      color: #000080;
+      border: 2px solid #FFFFFF;
+      text-align: center;
+  }
+
+  table, td, th {
+      margin-left: 3%;
+      padding: 1%;
+  }
+
+  tr th:first-child, tr td:first-child {
+      text-align: left;
+  }
+
+  tr td {
+      opacity: 0.8;
+  }
+
+  tr td:hover, tr th:hover {
+      opacity: 1.5;
+      font-size: 150%;
+  }
+
+}
+
+@media (min-width: 1200px) {
+	body {
+		padding: 1%; 
+		margin: 1%;
+	}
+
+	header {
+		background: #C0C0C0;
+		background-image: url("../images/flywheel.jpg");
+		background-repeat: no-repeat;
+		background-size: 100%; 
+		padding: 1%;
+	}
+
+	nav {
+		text-align: center;
+	}
+
+	nav a {
+		background-color: rgba(117, 247, 78, 0.6);
+		color: #000000; 
+		display: inline-block;
+		padding: 15px;
+		margin: 5%; 
+		text-decoration: none; 
+		border-radius: 5px; 
+		height: 20px; 
+		width: 120px;
+
+	}
+
+	.active {
+		background: #FFFFFF; 
+	}
+
+	h1 {
+		color: #9cdcfa;
+		text-align: center;
+		text-transform: uppercase;
+		font-family: "Trebuchet MS", Helvetica, sans-serif; 
+		font-size: 40px;
+		position: relative;
+		top: -20px;
+	}
+
+	h2 {
+		color: #000000;
+		text-transform: uppercase; 
+		font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+		font-size: 25px;
+	}
+
+	.left {
+		background: #79a9f0; 
+		width: 20%;
+		float: left;
+		padding: 1% 0; 
+	}
+
+	.left img {
+		border: solid 2px #000000;
+		width: 60%;
+		margin-left: 20%;
+		margin-right: 20%;
+		margin-top: 3%;
+		margin-bottom: 1%; 
+	}
+
+	.right {
+		width: 75%;
+		display: inline-block;
+		padding-left: 2%;
+	}
+
+	a {
+		font-family: Arial, Helvetica, sans-serif;
+		font-weight: bold;
+		font-size: 12px;
+	}
+
+	p {
+		font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+		font-size: 14px;
+
+	}
+
+    table {
+      border-collapse: collapse;
+      width: 800px;
+      font-family: "Courier New", Courier, monospace;
+      font-weight: bold;
+      font-size: 80%;
+  }
+
+  th {
+      background: #4682B4;
+      color: #FFFFFF;
+      border: 2px solid #FFFFFF;
+      background-image: url('https://wallpaper.dog/large/993956.jpg');
+      background-repeat: no-repeat;
+  }
+
+  td {
+      background: #87CEEB;
+      color: #000080;
+      border: 2px solid #FFFFFF;
+      text-align: center;
+  }
+
+  table, td, th {
+      margin-left: 3%;
+      padding: 1%;
+  }
+
+  tr th:first-child, tr td:first-child {
+      text-align: left;
+  }
+
+  tr td {
+      opacity: 0.8;
+  }
+
+  tr td:hover, tr th:hover {
+      opacity: 1.5;
+      font-size: 150%;
+  }
+
+}
