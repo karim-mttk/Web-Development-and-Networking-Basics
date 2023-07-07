@@ -1,0 +1,21 @@
+/*Write a media query that changes the background color of the screen from red,
+ to blue, to green as the screen gets larger.*/
+ 
+@media screen and (max-width: 600px) {
+    body {
+      background-color: red;
+    }
+  }
+  
+  @media screen and (min-width: 601px) and (max-width: 1200px) {
+    body {
+      background-color: blue;
+    }
+  }
+  
+  @media screen and (min-width: 1201px) {
+    body {
+      background-color: green;
+    }
+  }
+  
