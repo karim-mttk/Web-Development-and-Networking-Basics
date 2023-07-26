@@ -1,0 +1,75 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  height: auto;
+}
+
+.container {
+  position: relative;
+  border: 1px solid blueviolet;
+}
+
+#one {
+  border: 5px solid #ff0000;
+  margin: 5px;
+  padding: 5px;
+  width: 25%;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+#two {
+  border: 5px solid #99CC00;
+  margin: 5px;
+  padding: 5px;
+  width: 25%;
+  top: 0;
+  right: 0;
+  position: absolute;
+}
+
+#three {
+  border: 5px solid #0099CC;
+  margin: 5px;
+  padding: 5px;
+  width: 25%;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+}
+
+#four {
+  border: 5px solid #33FF99;
+  margin: 5px;
+  padding: 5px;
+  width: 25%;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+}
+
+#link {
+  position: absolute;
+  margin-left: 45%;
+  font-size: 18px;
+}
+
+#link a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  display: block;
+  padding: 32px 48px;
+  background-color: #00008B;
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  top: 0;
+  right: 0;
+  margin-left: 45%;
+}
+
+#link a:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
